@@ -13,3 +13,9 @@ ExpressionResult[ExpressionResult_2]=$ExpressionResult_2
 ExpressionResult[ExpressionResult_3]=$ExpressionResult_3
 ExpressionResult[ExpressionResult_4]=$ExpressionResult_4
 
+counter=0
+for i in "${ExpressionResult[@]}"
+do
+        ResultArray[((counter++))]=$i
+done
+
