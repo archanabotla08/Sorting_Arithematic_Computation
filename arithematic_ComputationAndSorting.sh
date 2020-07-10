@@ -20,4 +20,5 @@ do
 done
 
 echo "SORTED Result Array in Descending Order: " ${ResultArray[@]} | tr " " "\n" | sort -nr | tr "\n" " "
+echo "SORTED Result Array in Ascending Order: " ${ResultArray[@]} | tr " " "\n" | sort -n | tr "\n" " "
 
