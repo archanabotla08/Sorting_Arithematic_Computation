@@ -19,3 +19,5 @@ do
         ResultArray[((counter++))]=$i
 done
 
+echo "SORTED Result Array in Descending Order: " ${ResultArray[@]} | tr " " "\n" | sort -nr | tr "\n" " "
+
